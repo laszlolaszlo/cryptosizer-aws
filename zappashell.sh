@@ -1,0 +1,1 @@
+docker run -ti -p 8000:8000 -e AWS_PROFILE=zappa -v "$(pwd):/home/llaszlo/project" -v ~/.aws/:/home/llaszlo/.aws:ro  --rm aws-ws

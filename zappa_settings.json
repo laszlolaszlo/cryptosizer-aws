@@ -1,0 +1,16 @@
+{
+    "dev": {
+        "django_settings": "cryptosizer.settings",
+        "profile_name": "zappa",
+        "project_name": "cryptosizer-aws",
+        "runtime": "python3.9",
+        "s3_bucket": "cryptosizer-dev-g2qt1m1b4",
+        "timeout_seconds": 10,
+        "route53_enabled": true,
+        "aws_region": "eu-central-1",
+        "vpc_config": {
+            "SubnetIds": [ "subnet-05a152d5156fc0c74", "subnet-019fa9775e40a147f", "subnet-08fc45dbdbe8b9e6a" ],
+            "SecurityGroupIds": [ "sg-032f1dc5939ad7a72" ]
+        }
+    }
+}
